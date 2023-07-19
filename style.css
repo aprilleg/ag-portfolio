@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #B799FF;
+    --secondary-color: #ACBCFF;
+    --accent-color: #AEE2FF;
+    --light-color: #E6FFFD;
+}
+
+body {
+    margin: 100px 0;
+}
+
+h1, h3, p{
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 96px;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-size: 32px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    
+}
+
+.developer-from{
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+em {
+    font-weight: 600;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-link {
+    background: var(--primary-color);
+    color: var(--light-color);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10px;
+}
+.about-link {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/*
+*/
+
+.about-me-section {
+    text-align: center;
+    font-size: 48px;
+}
