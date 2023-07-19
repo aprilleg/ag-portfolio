@@ -3,13 +3,11 @@
     --secondary-color: #ACBCFF;
     --accent-color: #AEE2FF;
     --light-color: #E6FFFD;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-    margin: 100px 0;
-}
 
-h1, h3, p{
+h1, h2, h3, p{
     text-align: center;
     margin: 0;
 }
@@ -23,7 +21,13 @@ h3 {
     font-size: 32px;
     color: var(--secondary-color);
     margin-bottom: 20px;
+    margin-top: 50px;
     
+}
+h2 {
+    color: var(--secondary-color);
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .developer-from{
@@ -38,6 +42,11 @@ em {
     justify-content: center;
     margin-top: 30px;
 }
+.about-text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
 
 .contact-link {
     background: var(--primary-color);
@@ -46,6 +55,7 @@ em {
     border-radius: 4px;
     text-decoration: none;
     margin: 10px;
+    box-shadow: var(--box-shadow);
 }
 .about-link {
     border: 1px solid var(--primary-color);
@@ -62,4 +72,45 @@ em {
 .about-me-section {
     text-align: center;
     font-size: 48px;
+}
+.project-container {
+    margin-top: 150px;
+}
+
+.weather-img {
+    max-width: 100%;
+    height: auto;
+}
+.landing-page {
+    max-width: 100%;
+    height: auto;
+}
+.title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.title-button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 30px;
+    box-shadow: var(--box-shadow);
+}
+.image-container {
+    margin: 50px;
+}
+
+.email-address {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+.contact {
+    font-weight: bold;
+    color: var(--primary-color);
 }
