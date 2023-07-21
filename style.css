@@ -16,6 +16,7 @@ h1 {
     color: var(--primary-color);
 }
 
+
 h3 {
     font-size: 32px;
     color: var(--secondary-color);
@@ -73,7 +74,8 @@ em {
     font-size: 48px;
 }
 .project-container {
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .weather-img {
@@ -108,8 +110,42 @@ em {
     color: var(--secondary-color);
     font-size: 28px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 .contact {
     font-weight: bold;
     color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .developer-from {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .project-link {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+
+    }
+    .about-me-section {
+        margin-top: 30px;
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+}
+
+.contact-section {
+    line-height: 1;
 }
